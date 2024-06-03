@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>MathEditor</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <h1>MATH EDITOR</h1>
+    <canvas id="grafico" width="800" height="600">Sorry</canvas>
+    <h2>SCALA</h2>
+    <div id="parametri">
+        <input type="number" id="xmin" placeholder="Xmin">
+        <input type="number" id="xmax" placeholder="Xmax">
+        <input type="number" id="ymin" placeholder="Ymin">
+        <input type="number" id="ymax" placeholder="Ymax">
+    </div>
+    <div id="buttons">    
+        <button class="bt" onclick="disegna(1)">y=x²</button>
+        <button class="bt" onclick="disegna(2)">y=x³</button>
+        <button class="bt" onclick="disegna(3)">y=√x</button>
+        <button class="bt" onclick="disegna(4)">y=³√x</button>
+        <button class="bt" onclick="disegna(5)">y=sin(x)</button>
+        <button class="bt" onclick="disegna(6)">y=arcsin(x)</button>
+        <button class="bt" onclick="disegna(7)">y=cos(x)</button><br>
+        <button class="bt" onclick="disegna(8)">y=arccos(x)</button>
+        <button class="bt" onclick="disegna(9)">y=tan(x)</button>
+        <button class="bt" onclick="disegna(10)">y=arctan(x)</button>
+        <button class="bt" onclick="disegna(11)">y=eˣ</button>
+        <button class="bt" onclick="disegna(12)">y=ln(x)</button>
+        <button class="bt" onclick="disegna(13)">y=Log(x)</button>
+        <button class="bt" onclick="disegna(14)">y=|x|</button>
+        <br><br>
+        <button class="bt" id="reset" onclick="reset()">RESET</button>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

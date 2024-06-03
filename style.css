@@ -1,0 +1,58 @@
+body {
+    width: 100%;
+    background-color: #ececec;
+}
+
+#grafico {
+    display: block;
+    border: black 1px solid;
+    background-color: white;
+    margin: 0 auto;
+}
+
+#buttons {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+
+#parametri {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #a2231d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bt{
+    padding: 0.5%;
+    margin: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    color: white;
+    background-color: #142d4c;
+    border-color: #142d4c;
+    border-radius: 5px;
+    padding: 0.5% 1% 0.5% 1%;
+}
+
+#reset{
+    background-color: #dc2f2f;
+    border-color: #dc2f2f;
+    padding: 1% 2% 1% 2%;
+    font-size: 1.2em;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #a2231d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
